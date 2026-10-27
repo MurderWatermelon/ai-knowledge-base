@@ -32,7 +32,7 @@ streamlit run app.py
 
 详见 `阅读理解功能说明.md`，包含示例、启动方法、已验证范围与实测对比。
 
-## 标注自己的评测题集
+## 创建测试问题与参考原文
 
 下载网页里的示例，或者参考 `examples/evaluation.json`：
 
