@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "questions": [
+    {"id": "p01", "question": "普通款买回来第五天，不喜欢了，东西和配件都没问题，还能退吗？", "answerable": true, "relevant": [
+      {"id": "refund-window", "file": "refund.md", "quote": "普通商品在签收后七日内，且商品完好、配件齐全时，可以申请无理由退货。"}
+    ]},
+    {"id": "p02", "question": "按我的要求专门制作的东西，收到三天能因为不喜欢就退掉吗？", "answerable": true, "relevant": [
+      {"id": "custom-exception", "file": "refund.md", "quote": "定制商品不适用七日无理由退货。"}
+    ]},
+    {"id": "p03", "question": "普通款已经到手十天，没有质量问题，只是改变主意了，可以退回去吗？", "answerable": true, "relevant": [
+      {"id": "late-refund", "file": "refund.md", "quote": "普通商品超过七日期限后，不再支持因个人喜好而退货；存在质量问题时可另行申请售后。"}
+    ]},
+    {"id": "p04", "question": "等正式上市才有货的东西，也承诺付款后两个工作日寄出吗？", "answerable": true, "relevant": [
+      {"id": "presale", "file": "shipping.md", "quote": "预售商品按商品页面注明的日期安排发货，不适用现货发货时限。"}
+    ]},
+    {"id": "p05", "question": "说两天内寄走，是不是意味着两天内一定送到我手上？", "answerable": true, "relevant": [
+      {"id": "dispatch-arrival", "file": "shipping.md", "quote": "发货时限不等于送达时限，运输耗时取决于收货地区和承运商。"}
+    ]},
+    {"id": "p06", "question": "买了半年不小心摔坏了，修理能免钱吗？", "answerable": true, "relevant": [
+      {"id": "damage-exception", "file": "warranty.md", "quote": "进水、跌落或自行拆机造成的损坏不属于免费保修范围。"}
+    ]},
+    {"id": "p07", "question": "密码想不起来了，原来登记的邮箱还能收信，该怎样重新进入账户？", "answerable": true, "relevant": [
+      {"id": "reset", "file": "account.md", "quote": "忘记登录口令时，可通过已经绑定的电子邮箱验证身份并设置新口令。"}
+    ]},
+    {"id": "p08", "question": "生病缺席已经得到老师同意了，那次作业是不是也可以不交？", "answerable": true, "relevant": [
+      {"id": "homework", "file": "leave.md", "quote": "获得批准的病假不计为旷课，但仍需补交课程作业。"}
+    ]},
+    {"id": "p09", "question": "这门课综合分够了，但要求做的实验没做完，算过了吗？", "answerable": true, "relevant": [
+      {"id": "lab-condition", "file": "course.md", "quote": "即使总评分数达标，未完成必做实验也不能通过课程。"}
+    ]},
+    {"id": "p10", "question": "包裹已经交给快递了，还能直接撤销订单吗？如果不能，应该走什么流程？", "answerable": true, "relevant": [
+      {"id": "cancel-after-dispatch", "file": "cancellation.md", "quote": "已经交付承运商的订单不能直接取消，应在收货后按退货规则处理。"}
+    ]},
+    {"id": "p11", "question": "退款保证几个小时到银行卡？", "answerable": false, "relevant": []},
+    {"id": "p12", "question": "因病申请请假最多可以连续请多少天？", "answerable": false, "relevant": []}
+  ]
+}

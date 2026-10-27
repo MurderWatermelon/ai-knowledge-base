@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "questions": [
+    {"id": "q01", "question": "Python 字典的键有什么要求？", "answerable": true, "relevant": [
+      {"id": "keys", "file": "python_notes.md", "quote": "字典中的键必须是唯一的，并且必须是可哈希的对象。"}
+    ]},
+    {"id": "q02", "question": "列表能作为字典的键吗？为什么？", "answerable": true, "relevant": [
+      {"id": "list-key", "file": "python_notes.md", "quote": "列表不能直接作为字典的键，因为列表不可哈希。"}
+    ]},
+    {"id": "q03", "question": "NumPy 广播如何判断维度兼容？", "answerable": true, "relevant": [
+      {"id": "broadcast", "file": "python_notes.md", "quote": "广播从最右边的维度开始比较，两维相等或其中一维为 1 时兼容。"}
+    ]},
+    {"id": "q04", "question": "RAG 的核心流程是什么？", "answerable": true, "relevant": [
+      {"id": "rag", "file": "rag_notes.md", "quote": "RAG 是检索增强生成：先检索外部资料，再把相关内容提供给生成模型。"}
+    ]},
+    {"id": "q05", "question": "向量归一化后怎样计算余弦相似度？", "answerable": true, "relevant": [
+      {"id": "cosine", "file": "rag_notes.md", "quote": "非零向量归一化后，点积等于余弦相似度。"}
+    ]},
+    {"id": "q06", "question": "分块太大太小有什么影响，为什么要重叠？", "answerable": true, "relevant": [
+      {"id": "chunk-size", "file": "rag_notes.md", "quote": "分块太大会混入无关内容，分块太小可能切断完整的语义。"},
+      {"id": "overlap", "file": "rag_notes.md", "quote": "相邻分块保留重叠内容，有助于缓解分块边界造成的信息丢失。"}
+    ]},
+    {"id": "q07", "question": "怎样控制对比实验的变量，怎样避免调参导致评估偏乐观？", "answerable": true, "relevant": [
+      {"id": "control", "file": "testing_notes.md", "quote": "对比实验应固定题集、文档和检索模型，每次只改变需要比较的参数。"},
+      {"id": "holdout", "file": "testing_notes.md", "quote": "调参使用开发集，最终报告使用未参与调参的测试集，防止评测结果过于乐观。"}
+    ]},
+    {"id": "q08", "question": "知识库中没有答案的问题应如何处理和评测？", "answerable": true, "relevant": [
+      {"id": "refuse", "file": "rag_notes.md", "quote": "缺乏资料依据时，助手应该明确说明资料不足。"},
+      {"id": "no-answer", "file": "testing_notes.md", "quote": "无答案问题应单独测试拒答能力，不应该直接加入普通召回率的分母。"}
+    ]},
+    {"id": "q09", "question": "牛顿是哪年出生的？", "answerable": false, "relevant": []},
+    {"id": "q10", "question": "这份资料记录的明天上海气温是多少？", "answerable": false, "relevant": []}
+  ]
+}
